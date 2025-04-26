@@ -1,0 +1,9 @@
+[package]
+name = "rust_call_java"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jni = { version = "0.21.1", features = ["invocation"] }
+libc = "0.2"
+
